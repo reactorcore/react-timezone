@@ -103,7 +103,7 @@ export default class TimezonePicker extends React.Component {
     });
 
     if (this.props.onChange) {
-      this.props.onChange(this.props.timezones[zone]);
+      this.props.onChange(this.props.timezones[zone], zone);
     } else {
       this.field.value = zone;
       this.setState({ value: zone });
