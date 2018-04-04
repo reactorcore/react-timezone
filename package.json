@@ -8,10 +8,6 @@
     "lint": "eslint webpack.config.js src",
     "prepublish": "npm run lint && npm run build"
   },
-  "files": [
-    "./build/react-timezone.js",
-    "./build/react-timezone.min.js"
-  ],
   "author": "Vahagn Aharonian <vahagn.aharonian@gmail.com>",
   "license": "MIT",
   "devDependencies": {
